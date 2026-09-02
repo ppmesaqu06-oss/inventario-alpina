@@ -1,0 +1,52 @@
+{
+  "id": "/",
+  "name": "Alpina · Toma de Inventario",
+  "short_name": "Inventario",
+  "description": "Recibo en ciego, inventario cíclico, isla y corta fecha y solicitud de bajas con escáner de código de barras.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0000B9",
+  "theme_color": "#0000B9",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Escanear",
+      "short_name": "Escanear",
+      "description": "Abrir directamente la pantalla de escaneo",
+      "url": "./index.html?ir=cap",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Inventario cíclico",
+      "short_name": "Cíclico",
+      "description": "Familias pendientes por contar",
+      "url": "./index.html?ir=cic",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Isla y corta fecha",
+      "short_name": "Isla",
+      "description": "Productos próximos a vencer",
+      "url": "./index.html?ir=isla",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Grabado y reportes",
+      "short_name": "Reportes",
+      "description": "Generar y compartir el archivo",
+      "url": "./index.html?ir=reg",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
