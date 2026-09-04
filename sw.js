@@ -1,7 +1,7 @@
 /* Service worker · ALPINA · TOMA DE INVENTARIO
    El nombre del cache lleva el sello de compilacion: cada build nuevo invalida
    el anterior y la app se actualiza sola en el celular.                        */
-var V = "2026.09.03.1019";
+var V = "2026.09.03.1736";
 var C = "alpina-inventario-" + V;
 var ASSETS = ["./","./index.html","./manifest.webmanifest","./icon-192.png",
               "./icon-512.png","./icon-maskable.png","./apple-touch-icon.png"];
